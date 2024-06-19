@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    color: #202020;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 3rem;
+}
+
+h1 {
+    margin-block-end: 3rem;
+}
+
+.grid {
+    justify-items: center;
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(4, 200px);
+    margin-block-end: 9rem;
+}
+
+.badge {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+.badge--large {
+    width: 100px;
+    height: 100px;
+}
+
+.badge--s {
+    width: 25px;
+    height: 25px;
+}
+
+.badge--xs {
+    width: 20px;
+    height: 20px;
+}
+
+.brighton {
+    background-image: url('../images/brighton.svg');
+}    
+
+.burnley {
+    background-image: url('../images/burnley.svg');
+}    
+
+.chelsea {
+    background-image: url('../images/chelsea.svg');
+}
+
+.crystal_palace {
+    background-image: url('../images/crystal_palace.svg');
+} 
+
+.everton {
+    background-image: url('../images/everton.svg');
+} 
+
+.fulham {
+    background-image: url('../images/fulham.svg');
+} 
+
+.liverpool {
+    background-image: url('../images/liverpool.svg');
+} 
+
+.man_city {
+    background-image: url('../images/man_city.svg');
+}
+
+.man_united {
+    background-image: url('../images/man_united.svg');
+}
+
+.newcastle_united {
+    background-image: url('../images/newcastle_united.svg');
+}
+
+.nottingham_forest {
+    background-image: url('../images/nottingham_forest.svg');
+}
+
+.wolverhampton_wanderers {
+    background-image: url('../images/wolverhampton_wanderers.svg');
+}
+
+
